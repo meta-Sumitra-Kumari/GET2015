@@ -1,0 +1,87 @@
+
+html,body,div{display: block;}
+img{max-width:100%;}
+/*end reset*/
+/****-----start-body----****/
+body{
+	background:url(../images/bg.jpg)  no-repeat center fixed;
+ 	background-size: cover;
+ 	position:relative;
+ 	font-family: 'Open Sans', sans-serif;
+}
+.login-form {
+	background:#fff;
+	width:32%;
+	margin:9% auto 4% auto;
+ 	position: relative;
+}
+.head {
+	position: absolute;
+	top:-15%;
+	left: 35%;
+}
+
+form {
+	padding:24% 2.5em;
+}
+form li{
+	border:1px solid #B4B2B2;
+	list-style:none;
+	margin-bottom:25px;
+	width:100%;
+	background:none;
+	border-radius: 0.3em;
+
+}
+
+.icon{
+	background:url(../images/icons.png)  no-repeat 0px 0px;
+	height:30px;
+	width:30px;
+	display: block;
+	float:left;
+	margin:7px -11px 0px 0px
+}
+
+.user{
+	background: url(../images/icons.png) no-repeat 12px 11px;
+	
+}
+.lock{
+	background: url(../images/icons.png) no-repeat -17px 11px;
+}
+input[type="text"], input[type="password"] {
+	font-family: 'Open Sans', sans-serif;
+	width:60%;
+	padding:0.7em 2em 0.7em 1.7em;
+	color:#858282;
+	font-size:18px;
+	outline: none;
+	background: none;
+	border:none;
+	font-weight:600;
+	}
+form li:hover{
+	border:1px solid #40A9DF;
+	 box-shadow: 0 0 1em #40A9DF;
+}
+input[type="submit"]{
+	float:right;
+	font-size:18px;
+	display: inline-block;
+	font-weight:600;
+	color: #fff;
+}
+input[type="submit"]:hover{
+	background: #e27f00; 
+	
+}
+.p-container{
+	margin-top:2em;
+}
+.copy-right {
+	position: absolute;
+	bottom:-16%;
+	left: 43.7%;
+}
+

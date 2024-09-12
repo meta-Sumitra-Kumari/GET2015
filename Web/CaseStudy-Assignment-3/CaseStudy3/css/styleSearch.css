@@ -1,0 +1,257 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,  a,  img, sub, sup, ol, ul, li, fieldset, form, label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block}
+header {
+	position:relative;
+	background-color:#2B2B2B;
+	height:60px;
+	width:100%;
+}
+
+#logo {
+	padding:2%;
+	position:relative;
+	font-family:"Arial Black";
+	font-size:200%;
+	text-align:left;
+	color:#fff;
+}
+
+#user {
+	padding-right:1%;
+	line-height:1%;
+	position:relative;
+	text-align:right;
+}
+
+#user a {
+	font-family:"Verdana";
+	font-size:100%;
+	color:#fff;
+	text-decoration:none;
+}
+
+.space {
+	padding-left:5%;
+}
+nav {
+	background: url("images/header_top_bg.png");
+    position:relative;
+	float:left;
+	padding:1%;
+	height:30%;
+	width:100%;
+	opacity:0.6;
+	text-align:center;
+	font-family:"Verdana";
+}
+
+nav a {
+	font-size:120%;
+	text-decoration:none;
+	color:#fff;
+	}
+
+ol, ul {
+	list-style: none; }
+
+html { font-size: 100%;}
+
+img { max-width:100%; height:auto}
+body {
+	font-family: 'Cabin', sans-serif;
+	color:#4f5e62;
+	font-size:14px;
+	line-height:1.6em;
+	position:relativel;
+	background:#f0f3f5;
+	}
+
+
+/* Clear Floats 
+===================================*/
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear {
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0}
+
+.clearfix {
+	margin-top:3%;
+  *zoom: 1}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: ""}
+
+.clearfix:after {
+  clear: both}
+
+/* Typography
+===================================*/
+h1, h2, h3, h4, h5, h6 {
+	color: #3f4b56;
+	font-family: 'Cabin', sans-serif;
+	font-weight:400;
+	line-height:1.2em;
+	margin-bottom:1em}
+
+h1{font-size:27px}	
+h2{font-size:21px}	
+h3{font-size:19px}	
+h4{font-size:17px}	
+h5{font-size:15px}	
+h6{font-size:14px}
+	
+
+hr { border: solid #d4d4d4; border-width: 1px 0 0; clear: both; margin: 10px 0 20px; height: 0}
+
+/* Links 
+===================================*/
+a, a:visited { color: #34a4d8; text-decoration: none; outline:none; }
+a:hover, a:focus { color: #f25821; }
+
+/* Lists
+===================================*/
+ul { list-style: none outside; }
+ol { list-style: decimal; }
+
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+.header_top {
+	width:100%;
+	height:90px;
+	background:url(images/header_top_bg.png);
+	position:absolute;
+	top:0;
+	z-index:5}
+
+.header_top .container {
+	width:950px;
+	padding:20px 0 0 0}
+
+.logo {
+	overflow: hidden;
+	height:50px;
+	width:220px;
+	float:left;
+	z-index:2;
+	position:relative}
+
+.logo img {
+	max-width:100%}
+.offer_list .offer_item {
+	border-bottom:3px solid #ced6db;
+	background:#fff;
+	margin-bottom:40px;
+	margin-left:20%;
+	margin-right:20%;
+	border-radius:0 0 3px 3px;
+	-webkit-border-radius:0 0 3px 3px}
+
+.offer_list .offer_image {
+	width:300px;
+	height:190px;
+	float:left;
+	border-left:3px solid #f25620;
+	overflow:hidden;
+	position:relative;}
+
+.offer_list .offer_image .sale {
+	display:block;
+	width:100px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+  	transform: rotate(-45deg);
+	text-align:center;
+	-webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.5);
+	position:absolute;
+	top:30px;
+	left:-40px;
+	z-index:2;
+	padding:0 30px;
+	line-height:26px;
+	font-size:15px;
+	font-weight:500;
+	background:#f25620;
+	color:#fff;
+	text-transform:uppercase;}
+
+.ie7 .offer_list .offer_image .sale,
+.ie8 .offer_list .offer_image .sale {
+	left:0;
+	top:10px;
+	width:auto;
+	padding:0 15px}
+
+.offer_list .offer_aside {
+	float:left;
+	width:400px;
+	padding:15px 100px 10px 100px}
+
+.offer_list .offer_aside h2 {
+	margin:0;
+	font-size:15px;
+	font-weight:500;
+	text-transform:uppercase;}
+
+.offer_list .offer_item h2 a {
+	color:#39b4ed}
+
+.offer_list .offer_item h2 a:hover {
+	color:#f25821}
+
+.offer_list .offer_descr {
+	border-top:1px solid #e9e9e9;
+	border-bottom:1px solid #e9e9e9;
+	margin:14px 0;}
+
+.offer_descr {
+	 color:#80868c;
+	 font-size:13px;
+	 line-height:1.6em;
+	 padding:15px 0;}
+ 
+.offer_list .offer_data {
+	text-align:center;
+	font-size:13px;
+	line-height:15px;
+	color:#5a6670}
+
+.offer_list .offer_price {
+	float:right;
+	font-size:15px;
+	color:#f25821;
+	font-weight:500;}
+
+.offer_list .offer_miliage, 
+.offer_list .offer_regist {
+	background:url(images/icons/offer_icons.png) 0 -48px no-repeat;
+	padding-left:19px;
+	font-weight:500;}
+
+.offer_list .offer_miliage {
+	background-position:0 0;
+	float:left;}

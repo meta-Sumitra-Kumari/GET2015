@@ -1,0 +1,90 @@
+/* CSS Document */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,  a,  img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block}
+header {
+	position:relative;
+	background-color:#2B2B2B;
+	height:60px;
+	width:100%;
+}
+
+#logo {
+	padding:2%;
+	position:relative;
+	font-family:"Arial Black";
+	font-size:200%;
+	text-align:left;
+	color:#fff;
+}
+
+#user {
+	padding-right:1%;
+	line-height:1%;
+	position:relative;
+	text-align:right;
+}
+
+#user a {
+	font-family:"Verdana";
+	font-size:100%;
+	color:#fff;
+	text-decoration:none;
+}
+
+.login-form {
+	background:#fff;
+	width:32%;
+	margin:9% auto 4% auto;
+	position: relative;
+}
+
+form {
+	padding:10% 2.5em;
+	background:#f0f3f5;
+}
+form li{
+	border:1px solid #B4B2B2;
+	list-style:none;
+	margin-bottom:25px;
+	width:100%;
+	background:none;
+	border-radius: 0.3em;
+
+}
+input[type="text"] {
+	font-family: 'Open Sans', sans-serif;
+	width:60%;
+	padding:0.7em 2em 0.7em 1.7em;
+	color:#858282;
+	font-size:18px;
+	outline: none;
+	background: none;
+	border:none;
+	font-weight:600;
+	}
+form li:hover{
+	border:1px solid #40A9DF;
+	 box-shadow: 0 0 1em #40A9DF;
+}
+input[type="submit"]{
+	float:right;
+	font-size:18px;
+	display: inline-block;
+	font-weight:600;
+	color: #fff;
+}
+input[type="submit"]:hover{
+	background: #e27f00; 
+	
+}
+.p-container{
+	margin-top:2em;
+}

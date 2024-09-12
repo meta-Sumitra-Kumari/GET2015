@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<head>
+		<title>CarPortal</title>
+		<meta charset="utf-8">
+		<link href="styleMain.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="scripts/scriptMain.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="top">
+				Welcome to the amazing world of Cars...
+			</div>
+			<div id="header">
+					<h1 class="header2">CAR Portal</h1>
+				</div>
+			<div id="navigation">
+					<div id="invertedtabsline">&nbsp;</div>
+					<div id="invertedtabs">
+						<ul>
+							<li style="margin-left: 1px"><a href="#"><span>Home</span></a></li>
+							<li><a href="Login.html"><span>Login</span></a></li>
+							<li><a href="#"><span>About</span></a></li>
+							<li><a href="search.html"><span>Car Search</span></a></li>
+						</ul>
+					</div>
+						<br style="clear: left" />
+				</div>
+				 <div id="content">
+					<p ></br></br></br></br>Let's explore the world of amazing car.</br>Just on one click search your dream car and book now on lowest prices.<br/></p>
+					<h2 class="header2">Search Car</h2></br>
+					<form name="Search"  id="Search">
+					<select id='makeCombo' onchange='makeComboChange();'>
+					
+						<option value='-1' title='-select one-'>-Company-</option>
+						<option value='0' title='Audi'>Audi</option>
+						<option value='1' title='Ford'>Ford</option>
+						<option value='2' title='Honda'>Honda</option>
+					</select>
+ 
+					<select id='modelCombo' onchange='modelComboChange();'>
+						<option value='-1' title='-select company first-'>-select company first-</option>
+					</select></br></br></br>
+					<input type="button" onClick="return submitSearch();" id="submitCar" value="View"/>
+					</form>
+ 
+					<p>&nbsp;</p>
+				 </div>
+			<div id="sidebar">
+					<h2 class="header2">Search Your Car</h2>
+					<img src="images/download (1).jpg" width="100%" height="100%"/>
+					<p >Now Buy car from your home.SEARCH...SELECT...BUY...and DRIVEEEEE.....  </p>
+					<p >&nbsp;</p>
+				 </div>
+            <div class="clear" id="footer">
+					<div align="center">Copyright 2015 <a href="#">www.carcapture.com</a> - All rights reserved |</div>
+				</div>
+		</div>
+	</body>
+</html>
+
