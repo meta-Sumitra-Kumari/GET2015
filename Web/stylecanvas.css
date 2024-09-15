@@ -1,0 +1,22 @@
+header{
+	height:10%;
+	width:100%;
+	font-family:verdana;
+	text-align:center;
+}
+.container{
+	padding:10%;
+	margin-left:140px;
+	height:70%;
+	width:60%;
+	text-align:center;
+	background-color:#00CCFF;
+	
+}
+#myCanvas{
+	width:200;
+	height:100;
+	border:2px solid #110000;
+	
+}
+

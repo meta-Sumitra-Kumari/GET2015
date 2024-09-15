@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ColorCanvas</title>
+		<link rel="stylesheet" href="stylecanvas.css" type="text/css">
+		<script>
+			function colTheCanvas()
+			{
+			var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+			ctx.fillStyle = "#ff0000";
+			ctx.fillRect(0,0,300,200);
+			}
+		</script>
+
+
+	</head>
+
+	<body>
+		<header>
+			<h3>Fill the canvas</h3> 
+		</header>
+		<div class="container">
+			<canvas id="myCanvas">
+
+			</canvas>
+			</br>
+			<input type="submit" value="ClickToColor" name="submit" onClick="colTheCanvas();">
+		</div>
+
+	</body>
+</html>

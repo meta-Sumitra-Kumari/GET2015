@@ -1,0 +1,24 @@
+/* CSS Document */
+header{
+	height:10%;
+	width:100%;
+	font-family:verdana;
+	text-align:center;
+}
+.container{
+	padding:10%;
+	margin-left:140px;
+	height:70%;
+	width:60%;
+	text-align:center;
+	background-color:#00CCFF;
+	
+}
+#demo{
+	padding:5%;
+	height:15%;
+	width:25%;
+	margin-left:33%;
+	text-align:center;
+	background-color:#FFCC66;
+}
