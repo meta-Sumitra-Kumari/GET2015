@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	padding-top: 30px;
+	text-align: center;
+	background-color: #F5EFEF;
+}
+
+.wrapper {
+	font-size: 18px;
+	margin-top: 50px;
+	margin-left: 30%;
+	border: 1px solid gray;
+	width: 40%;
+	height: 60%;
+	padding-top: 40px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+a{
+	text-decoration:none;
+	font-weight: bold;
+	color: olive;
+	font-size: 20px;
+}
+
+table {
+	text-align: left;
+	margin-left: 21%;
+}
+
+.submit{
+	margin-left:100px;
+	font-size: 17px;
+	color: purple;
+	font-weight: bold;
+}
+
+.message {
+	color: red;
+}
+
+p {
+	text-align: :center;
+}

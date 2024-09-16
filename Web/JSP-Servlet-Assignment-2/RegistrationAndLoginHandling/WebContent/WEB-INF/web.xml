@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://java.sun. com/xml/ns/j2ee http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.4">
+  <servlet>
+    <display-name>ValidateForm</display-name>
+    <servlet-name>ValidateForm</servlet-name>
+    <servlet-class>com.metacube.registration.controller.ValidateForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidateForm</servlet-name>
+    <url-pattern>/ValidateForm</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>InsertUserIntoDatabase</display-name>
+    <servlet-name>InsertUserIntoDatabase</servlet-name>
+    <servlet-class>com.metacube.registration.controller.InsertUserIntoDatabase</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertUserIntoDatabase</servlet-name>
+    <url-pattern>/InsertUserIntoDatabase</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <display-name>ValidateLogIn</display-name>
+    <servlet-name>ValidateLogIn</servlet-name>
+    <servlet-class>com.metacube.registration.controller.ValidateLogIn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidateLogIn</servlet-name>
+    <url-pattern>/ValidateLogIn</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
