@@ -1,0 +1,27 @@
+.leaf{
+	width:200px;
+	height:120px;
+	margin-left:39%;
+	margin-top:12%;
+
+	background-color:green;
+	border-width:4px 20px 4px 20px;
+	border-style:solid;
+	border-color:#005C00 #005C00 #005C00 #005C00;
+	border-radius:0 120px 0 120px;
+	-webkit-border-radius:0 120px 0 120px; 
+}
+section{
+	width:80%;
+	height:60%;
+
+	background-image: url(image.jpg),url(GreenLeaf.jpg);
+	background-position: right bottom, left top;
+	background-repeat:repeat-x,repeat-x;
+	padding: 5%;
+	margin-top:5%;
+	margin-left:4%;
+	margin-right:2%;
+	background-size:20%,50%;
+
+}

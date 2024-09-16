@@ -1,0 +1,36 @@
+body{
+	
+	 background-image:url(basketball.jpg);
+ }
+ section {
+	 margin-left:37%;
+	 margin-top:15%;
+    width: 100px;
+    height: 100px;
+    background-color: #CC0000;
+    position: relative;
+    -webkit-animation-name: animation; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: animation;
+    animation-duration: 1s;
+	border-radius:120px 120px 120px 120px;
+	animation-iteration-count: 3;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animation {
+    0%   {background-color:#CC0000; left:0px; top:0px;}
+    25%  {background-color:#000000; left:0px; top:100px;}
+    50%  {background-color:#0033CC; left:0px; top:200px;}
+    75%  {background-color:#009933; left:0px; top:100px;}
+    100% {background-color:#CC0000; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes animation {
+    0%   {background-color:#CC0000; left:0px; top:0px;}
+    25%  {background-color:#000000; left:0px; top:100px;}
+    50%  {background-color:#0033CC; left:0px; top:200px;}
+    75%  {background-color:#009933; left:0px; top:100px;}
+    100% {background-color:#CC0000; left:0px; top:0px;}
+}
