@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config file for vehicle -->
+<vehicle>
+	<car>
+		<vehicleId>1</vehicleId>
+		<make>Make1</make>
+		<model>Model1</model>
+		<engineInCC>10</engineInCC>
+		<fuelCapacity>11.0</fuelCapacity>
+		<milage>12.0</milage>
+		<price>750000</price>
+		<roadTax>5000</roadTax>
+		
+		<ac>true</ac>
+		<accessoryKit>true</accessoryKit>
+		<powerSteering>true</powerSteering>
+	</car>
+	<car>
+		<vehicleId>2</vehicleId>
+		<make>Make2</make>
+		<model>Model2</model>
+		<engineInCC>20</engineInCC>
+		<fuelCapacity>21.0</fuelCapacity>
+		<milage>22.0</milage>
+		<price>600000</price>
+		<roadTax>2000</roadTax>
+		
+		<ac>no</ac>
+		<accessoryKit>true</accessoryKit>
+		<powerSteering>true</powerSteering>
+	</car>
+	<car>
+		<vehicleId>3</vehicleId>
+		<make>Make3</make>
+		<model>Model3</model>
+		<engineInCC>30</engineInCC>
+		<fuelCapacity>31.0</fuelCapacity>
+		<milage>32.0</milage>
+		<price>850000</price>
+		<roadTax>4000</roadTax>
+		
+		<ac>true</ac>
+		<accessoryKit>true</accessoryKit>
+		<powerSteering>no</powerSteering>
+	</car>
+	<bike>
+		<vehicleId>4</vehicleId>
+		<make>Make4</make>
+		<model>Model4</model>
+		<engineInCC>40</engineInCC>
+		<fuelCapacity>41.0</fuelCapacity>
+		<milage>42.0</milage>
+		<price>50000</price>
+		<roadTax>500</roadTax>
+		
+		<selfStart>true</selfStart>
+		<helmetPrice>1200</helmetPrice>
+	</bike>
+	<bike>
+		<vehicleId>5</vehicleId>
+		<make>Make5</make>
+		<model>Model5</model>
+		<engineInCC>50</engineInCC>
+		<fuelCapacity>51.0</fuelCapacity>
+		<milage>52.0</milage>
+		<price>60000</price>
+		<roadTax>600</roadTax>
+		
+		<selfStart>no</selfStart>
+		<helmetPrice>1500</helmetPrice>
+	</bike>
+	<bike>
+		<vehicleId>6</vehicleId>
+		<make>Make6</make>
+		<model>Model6</model>
+		<engineInCC>60</engineInCC>
+		<fuelCapacity>61.0</fuelCapacity>
+		<milage>62.0</milage>
+		<price>75000</price>
+		<roadTax>300</roadTax>
+	
+		<selfStart>true</selfStart>
+		<helmetPrice>1700</helmetPrice>
+	</bike>
+</vehicle>
