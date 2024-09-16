@@ -1,0 +1,186 @@
+-----List Of selectors from which we can traverse---
+
+1.parent()
+	will return the direct parent of the div and this will traverse single level only.
+	example->
+		$document.ready(function(){
+		$("span").parent().css(background-color: "red");
+		})
+		this will color the backgorund of parent div
+		
+2.parents()
+	this will return all the ancestors way up to last parent i.e. up to <html>
+	example->
+		$document.ready(function(){
+		$("span").parents().css(border:"1px solid red");})
+		this will change the border of all div up to html tag
+		
+3. parentsUntil()
+	this will return all the parents specified between the given div and the specified in parentsUntil() parameter
+	example->
+		$document.ready(function(){
+		$("span").parentsUntil("body").css(border:"1px solid red");})
+		this will change the border upto body tag
+
+4. children()
+	this will return the children of the div for which we have up plied and this is only single level down.
+	example->
+		$document.ready(function(){
+		$(".parentDiv").children().css(border:"1px solid red");})
+		this will change the border of all children of parentDiv to red color.
+
+5. find()
+	this will return the div which is specified in the find() parameter in the div on which find is applied.
+	example->
+		$document.ready(function(){
+		$(".maindiv").find(".subDiv").css(border :"1px solid red");})
+		this will change the border of subDiv which is present in maindiv.
+6. siblings()
+	this will return all the siblings of specified div
+	example->
+		$document.ready(function(){
+		$(".subdiv").siblings().css(border:"1px solid red");})
+		this will change the border of all the siblings present in the subdiv 
+7. next()
+	this will return the next sibling of the specified division
+	example->
+		$document.ready(function(){
+		$(".subdiv").next().css(border:"1px solid red");})
+		this will change the color of the next div present .
+
+		
+8.nextAll()
+	this method will return all the next division present after the specified div in its parent div
+	example->
+		$document.ready(function(){
+		$(".subdiv").nextAll().css(border:"1px solid red");})
+		this will change the color of all next div present after the subdiv until its parent div.
+
+9. nextUntil()
+	this will return all the div upto the div specified in nextUntil parameter.
+	example->
+		$document.ready(function(){
+		$("h1").nextUntil("h4").css(border:"1px solid red");})
+		this will change the border for h2 and h3 if they are specified in order and present.
+10. filter()
+	will return those div which will follow the defined criteria in parameter
+	example->
+		$document.ready(function(){
+		$("div").filter("h4").css(border:"1px solid red");})
+		this will change the border of those h4 tags which are present in div
+
+11. not()
+	will return those div which don't follow  the defined criteria in parameter
+	example->
+		$document.ready(function(){
+		$("div").not("h4").css(border:"1px solid red");})
+		this will change the border of all tags except  h4 tags which are present in div
+		
+12. closest()
+	Begins with the current element Travels up the specified div in closest parameter and returns the first (single) ancestor that matches the passed expression
+	example->
+		$(document).ready(function(){
+    $("span").closest(".abc").css({"color": "red", "border": "2px solid red"});
+		});
+		this will change the color of first abc div present with the span 
+
+13.contents()
+	will return all the content including text and comment in the specified div
+	example->
+		$(document).ready(function(){
+			$("button").click(function(){
+			$("div").contents().wrap('<b/>');
+			});
+		});
+		this will return all the content and will bond.
+		
+14. each()
+	The each() method specifies a function to run for each matched element.
+	$(selector).each(function(index,element))
+	function(index,element)	Required. A function to run for each matched element.
+	index - The index position of the selector
+	example->
+		<!doctype html>
+			<html lang="en">
+			<head>
+			  <meta charset="utf-8">
+			  <title>each demo</title>
+			  <style>
+			  div {
+				width: 40px;
+				height: 40px;
+				margin: 5px;
+				float: left;
+				border: 2px blue solid;
+				text-align: center;
+			  }
+			  span {
+				color: red;
+			  }
+			  </style>
+			  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+			</head>
+			<body>
+			 
+			<button>Change colors</button>
+			<span></span>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div id="stop">Stop here</div>
+			<div></div>
+			<div></div>
+			<div></div>
+			 
+			<script>
+			$( "button" ).click(function() {
+			  $( "div" ).each(function( index, element ) {
+				// element == this
+				$( element ).css( "backgroundColor", "yellow" );
+				if ( $( this ).is( "#stop" ) ) {
+				  $( "span" ).text( "Stopped at div index #" + index );
+				  return false;
+				}
+			  });
+			});
+			</script>
+			 
+			</body>
+			</html>
+15. has()
+	 selects all elements that have one or more elements inside of them, that matches the specified selector.
+	 example->
+		$(document).ready(function(){
+		$("p:has(span)").css("border", "solid red");
+		});
+		this will change the color of those p tags in which we have span
+
+16. is()
+	The is( selector ) method checks the current selection against an expression and returns true, if at least one element of the selection fits the given selector.
+	If no element fits, or the selector is not valid, then the response will be 'false'.
+	example->
+		 $(document).ready(function() {
+			
+            $("li").click(function () {
+				
+               if ($(this).is(".top0")) {
+                  $("p").text("This is list item 1");
+               } else if ($(this).is(".middle0")) {
+                  $("p").text("This is middle class list");
+               } 
+            });
+				
+         });
+		 if the class is top0 then it will print this is list item1
+		 and if class is middle0 then it will print this is middle class list.
+		 
+17. last()
+	This selector can only select one single element. and will select the last div
+	example->
+		$(document).ready(function(){
+		$("p:last").css("background-color", "yellow");
+		});
+		this will change the color of last p tag
+		
+18.
