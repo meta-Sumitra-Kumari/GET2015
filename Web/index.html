@@ -1,0 +1,65 @@
+<HTML>
+<head>
+	<title>Employee Form</title>
+</head>
+<body>
+	<form method="post" >
+		<table>
+			<tr>
+				<td> First Name : </td>
+				<td><input type="text" required id="firstName"></td>
+			</tr>
+			<tr>
+				<td> Last Name : </td>
+				<td><input type="text" required id="lastName"></td>
+			</tr>
+			<tr>
+				<td> Password :</td>
+				<td><input type="hidden" id="passwd">
+				<input type="text" required id="passwda"></td>
+			</tr>
+			<tr>
+				<td>Confirm Password :</td>
+				<td><input type="hidden" required id="confirmPasswd">
+				<input type="text" required id="passwdb"></td>
+			</tr>
+			<tr>
+				<td> Age :</td>
+				<td><input type="number" id="age" required min="12" max="100" step="any"></td>
+			</tr>
+			<tr>
+				<td>Select State :</td>
+				<td>
+					<select name="state" class="required-entry" id="state" onchange="javascript: dynamicdropdown(this.options[this.selectedIndex].value);">
+                <option value="">Select state</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="MP">MP</option>
+                <option value="UP">UP</option>
+                <option value="Maharastra">Maharastra</option>
+            </select>
+				</td>
+			</tr>
+			<tr>
+				<td>Select City :</td>
+				<td>
+					 <script type="text/javascript" language="JavaScript">
+                document.write('<select name="city" id="city"><option value="">Please select city</option></select>')
+            </script>
+				</td>
+			</tr>
+			<tr>
+				<td> Address :	</td>
+				<td><textarea id="addressLine1" required rows="3"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2"> <input type="checkbox" id="acceptCondition" onChange="activateSubmit()"><label for="acceptCondition"> I Accept all <a href="#">Terms & Conditions</a></label></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="Create!!" id="submitButton" onClick="validate()" disabled></td>
+			</tr>
+	</form>
+</body>
+<script type="text/javascript" src="script1.js">
+		
+	</script>
+</html>
