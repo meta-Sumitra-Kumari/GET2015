@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<head>
+		<title>LoginMenu</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styleCreateCar.css">
+		<script type="text/javascript" src="scripts/scriptCreate.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<span id="logo">Car Portal</span>
+			<div id="user">
+				<a href="Home.html">Logout</a>			</div>
+		</header>
+	    <div class="login-form">
+          <form  action="LoginMenu.html" onSubmit="return validate(1);">
+		  <li>
+          	<select required id='makeCombo' onchange='makeComboChange();'>
+					
+						<option value='' title='-select one-'>-Company-</option>
+						<option value='0' title='Audi'>Audi</option>
+						<option value='1' title='Ford'>Ford</option>
+						<option value='2' title='Honda'>Honda</option>
+					</select>
+		</li>
+		<li>
+ 
+					<select required id='modelCombo' onchange='modelComboChange();'>
+						<option value='' title='-select company first-'>-select company first-</option>
+					</select>
+			</li>
+            <li>
+              <input name="text2" type="text" id="EngineInCC" required placeholder="EngineInCC" >
+            </li>
+            <li>
+              <input name="text2" type="text"  id="Milage" required placeholder="Milage" >
+            </li>
+            <li>
+              <input name="text2" type="text"  id="Price" required placeholder="Price" >
+            </li>
+            <div class="p-container">
+              <input name="submit" type="submit"  value="Edit CAR" >
+            </div>
+          </form>
+    </div>
+	</body>
+</html>
+

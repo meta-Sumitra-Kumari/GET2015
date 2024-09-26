@@ -1,0 +1,89 @@
+/* CSS Document */
+html, div, span, h1, h2, p,  a,  img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; }
+ header {
+	display: block}
+header {
+	position:relative;
+	background-color:#2B2B2B;
+	height:60px;
+	width:100%;
+}
+
+#logo {
+	padding:2%;
+	position:relative;
+	font-family:"Arial Black";
+	font-size:200%;
+	text-align:left;
+	color:#fff;
+}
+
+#user {
+	padding-right:1%;
+	line-height:1%;
+	position:relative;
+	text-align:right;
+}
+
+#user a {
+	font-family:"Verdana";
+	font-size:100%;
+	color:#fff;
+	text-decoration:none;
+}
+
+img { max-width:100%; height:auto}
+body {
+	font-family: 'Cabin', sans-serif;
+	color:#4f5e62;
+	font-size:14px;
+	background:#f0f3f5;
+	}
+.link1{
+	float:left;
+	position:relative;
+}
+.link2{
+	float:right;
+	position:relative;
+}
+section img{
+	width:20%;
+	height:20%;
+
+}
+
+section{
+	background:#fff;
+	background-image:url(../images/images_bac.jpg);
+	width:80%;
+	height:300px;
+	margin-left:5%;
+	margin-right:10%;
+	margin-top:5%;
+	padding-left:10%;
+	padding-top:10%;
+ 
+}
+a{
+	font: bold 25px Arial, Verdana, sans-serif;
+	color: #3A5D71;
+}
+.link{
+	width:70%;
+	height:50%;
+	padding:1%;
+	background-color:#FFFFFF;
+	position:relative;
+	float:left;
+	margin-left:5%;
+	color: #3A5D71;
+	font: bold 25px Arial, Verdana, sans-serif;
+}
+

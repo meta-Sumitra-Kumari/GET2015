@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<title>The Login Page</title>
+		<meta charset="utf-8">
+		<link href="css/styleLogin.css" rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="scripts/scriptLogin.js"></script>
+		<meta charset="utf-8">
+			
+	</head>
+	<body>
+		<div class="login-form">
+			<div class="head">
+				<img src="images/mem2.jpg" alt=""/>
+			</div>
+			<form  action="LoginMenu.html" onSubmit="return loginFunction();">
+				<li>
+					<input type="text" class="text" value="USERNAME" id="username" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'USERNAME';}" ><a href="#" class=" icon user"></a>
+				</li>
+				<li>
+					<input type="password" value="Password" id="passwrd" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Password';}"><a href="#" class=" icon lock"></a>
+				</li>
+				<div class="p-container">
+					<label class="checkbox"><input type="checkbox" name="checkbox" checked><i></i>Remember Me</label>
+					<input type="submit"  value="SIGN IN" >
+					
+				</div>
+			</form>
+		</div>
+</body>
+</html>
