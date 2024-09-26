@@ -1,0 +1,46 @@
+main{
+	width:90%;
+
+	background:#99CCFF;
+	border-style:solid;
+	border-color:#3399FF;
+	padding-bottom:10%;
+	margin:5%;
+}
+header{
+	text-align:center;
+	width:90%;
+}
+section{
+	margin:5%;
+	width:90%;
+
+	
+	padding-bottom:10%;
+	
+}
+.leftsection{
+	margin-left:30%;
+	width:20%;
+
+	float:left;
+
+}
+.rightsection{
+	
+	width:30%;
+
+	float:left;
+	
+}
+.space {
+	line-height:200%;
+	
+}
+.end{
+	width:90%;
+	float:left;
+	text-align:center;
+	
+	margin-top:5%;
+}
