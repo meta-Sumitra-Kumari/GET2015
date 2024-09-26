@@ -1,0 +1,28 @@
+FrameworkServlet 2015-12-23 16:50:14 INFO       DispatcherServlet 479 - FrameworkServlet 'spring': initialization started
+AbstractApplicationContext 2015-12-23 16:50:14 INFO       XmlWebApplicationContext 513 - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Dec 23 16:50:14 IST 2015]; root of context hierarchy
+XmlBeanDefinitionReader 2015-12-23 16:50:14 INFO       XmlBeanDefinitionReader 316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+AbstractHandlerMethodMapping 2015-12-23 16:50:15 INFO       RequestMappingHandlerMapping 182 - Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.metacube.controller.MainController.doGet() throws java.lang.Exception
+AbstractHandlerMethodMapping 2015-12-23 16:50:15 INFO       RequestMappingHandlerMapping 182 - Mapped "{[/{type}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.metacube.controller.MainController.getPages(java.lang.String) throws java.lang.Exception
+ExceptionHandlerExceptionResolver 2015-12-23 16:50:16 INFO       ExceptionHandlerExceptionResolver 313 - Detected @ExceptionHandler methods in globalExceptionController
+AbstractUrlHandlerMapping 2015-12-23 16:50:16 INFO       SimpleUrlHandlerMapping 315 - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+FrameworkServlet 2015-12-23 16:50:16 INFO       DispatcherServlet 498 - FrameworkServlet 'spring': initialization completed in 1216 ms
+AbstractApplicationContext 2015-12-23 16:50:17 INFO       XmlWebApplicationContext 873 - Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Dec 23 16:50:14 IST 2015]; root of context hierarchy
+FrameworkServlet 2015-12-23 16:50:21 INFO       DispatcherServlet 479 - FrameworkServlet 'spring': initialization started
+AbstractApplicationContext 2015-12-23 16:50:21 INFO       XmlWebApplicationContext 513 - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Dec 23 16:50:21 IST 2015]; root of context hierarchy
+XmlBeanDefinitionReader 2015-12-23 16:50:21 INFO       XmlBeanDefinitionReader 316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+AbstractHandlerMethodMapping 2015-12-23 16:50:21 INFO       RequestMappingHandlerMapping 182 - Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.metacube.controller.MainController.doGet() throws java.lang.Exception
+AbstractHandlerMethodMapping 2015-12-23 16:50:21 INFO       RequestMappingHandlerMapping 182 - Mapped "{[/{type}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.metacube.controller.MainController.getPages(java.lang.String) throws java.lang.Exception
+ExceptionHandlerExceptionResolver 2015-12-23 16:50:22 INFO       ExceptionHandlerExceptionResolver 313 - Detected @ExceptionHandler methods in globalExceptionController
+AbstractUrlHandlerMapping 2015-12-23 16:50:22 INFO       SimpleUrlHandlerMapping 315 - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+FrameworkServlet 2015-12-23 16:50:22 INFO       DispatcherServlet 498 - FrameworkServlet 'spring': initialization completed in 1389 ms
+CustomGenericException 2015-12-23 16:50:32 INFO       CustomGenericException 33 - E888 Caused By This is custom message
+AbstractApplicationContext 2015-12-23 17:22:48 INFO       XmlWebApplicationContext 873 - Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Dec 23 16:50:21 IST 2015]; root of context hierarchy
+FrameworkServlet 2015-12-23 17:22:52 INFO       DispatcherServlet 479 - FrameworkServlet 'spring': initialization started
+AbstractApplicationContext 2015-12-23 17:22:52 INFO       XmlWebApplicationContext 513 - Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Dec 23 17:22:52 IST 2015]; root of context hierarchy
+XmlBeanDefinitionReader 2015-12-23 17:22:52 INFO       XmlBeanDefinitionReader 316 - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+AbstractHandlerMethodMapping 2015-12-23 17:22:52 INFO       RequestMappingHandlerMapping 182 - Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.metacube.controller.MainController.doGet() throws java.lang.Exception
+AbstractHandlerMethodMapping 2015-12-23 17:22:52 INFO       RequestMappingHandlerMapping 182 - Mapped "{[/{type}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.metacube.controller.MainController.getPages(java.lang.String) throws java.lang.Exception
+ExceptionHandlerExceptionResolver 2015-12-23 17:22:53 INFO       ExceptionHandlerExceptionResolver 313 - Detected @ExceptionHandler methods in globalExceptionController
+AbstractUrlHandlerMapping 2015-12-23 17:22:53 INFO       SimpleUrlHandlerMapping 315 - Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+FrameworkServlet 2015-12-23 17:22:53 INFO       DispatcherServlet 498 - FrameworkServlet 'spring': initialization completed in 1392 ms
+CustomGenericException 2015-12-23 17:23:02 INFO       CustomGenericException 33 - E888 Caused By This is custom message
