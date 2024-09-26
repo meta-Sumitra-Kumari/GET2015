@@ -1,0 +1,251 @@
+header {
+	position: relative;
+	background-color: #2B2B2B;
+	height: 60px;
+	width: 100%;
+}
+
+#logo {
+	padding: 2%;
+	position: relative;
+	font-family: "Arial Black";
+	font-size: 30px;
+	text-align: left;
+	color: #fff;
+}
+
+#user {
+	padding-right: 9%;
+	line-height: 1%;
+	position: relative;
+	text-align: right;
+	color:white;
+}
+
+#user a {
+	font-family: "Verdana";
+	font-size: 100%;
+	color:#f25821;
+	text-decoration: none;
+}
+
+label {
+	float: left;
+	width: 50%;
+	text-align: left;
+	margin-right: 0.5em;
+	color: black;
+}
+
+.clearfix {
+	margin-top: 3%;
+	*zoom: 1
+}
+
+.clearfix:before,.clearfix:after {
+	display: table;
+	line-height: 0;
+	content: ""
+}
+
+.clearfix:after {
+	clear: both
+}
+
+.content {
+	border-bottom: 3px solid #ced6db;
+	background: #fff;
+	margin-top: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	float: left;
+	width: 550px;
+	padding: 19px 23px 0px 20px;
+}
+
+.content h2 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.details {
+	text-align: center;
+	font-size: 13px;
+	line-height: 15px;
+	color: #5a6670;
+}
+
+.space {
+	padding-left: 5%;
+}
+
+
+
+input[type="text"],input[type="password"],input[type="email"],textarea {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: 2px solid black;
+	font-size: 16px;
+	outline: 0;
+	padding: 7px;
+	width: 100%;
+}
+
+input[type="submit"]{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: 2px solid black;
+	font-size: 16px;
+	outline: 0;
+	padding: 7px;
+	margin-left:3%;
+	width: 30%;
+}
+
+input :focus {
+	border: 1px SOLID #EDEDED;
+}
+
+.submit-design {
+	text-align: center;
+	color: blue;
+}
+
+nav {
+	background: url("../images/header_top_bg.png");
+	position: relative;
+	padding: 1%;
+	height: 30%;
+	width: 100%;
+	opacity: 0.6;
+	text-align: center;
+	font-family: "Verdana";
+}
+
+nav a {
+	font-size: 120%;
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:hover{
+	text-decoration: none;
+}
+#toppanel {
+	position: absolute;
+	top: 0px;
+	width: 0%;
+	text-align: left;
+	margin-left: 70%;
+}
+
+#panel {
+	width: 450px;
+	height: 200px;
+	color: black;
+	background: #272727;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	display: none;
+}
+
+#panel .content {
+	color: black;
+	width: 400px;
+	margin: -15px auto;
+	padding-top: 5px;
+	text-align: left;
+	font-size: 0.85em;
+}
+
+.clearfix {
+	display: block;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.tab {
+	width: 250px;
+	background: url(../images/tab_b.png) repeat-x 0 0;
+	height: 42px;
+	position: relative;
+	top: -15px;
+	z-index: 999;
+}
+
+.tab ul.login li.left {
+	background: url(../images/tab_l.png) no-repeat left 0;
+	height: 42px;
+	width: 30px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+.tab ul.login li {
+	text-align: left;
+	padding: 0 6px;
+	display: block;
+	float: left;
+	height: 42px;
+	background: url(../images/tab_m.png) repeat-x 0 0;
+}
+
+.tab ul.login li a {
+	color: #15ADFF;
+}
+
+.a {
+	height: 20px;
+	line-height: 20px !important;
+	padding-left: 30px !important;
+	cursor: pointer;
+	display: block;
+	width: 120px;
+	position: relative;
+	top: 11px;
+	background: url(../images/bt_close.png) no-repeat left 0;
+	color: blue;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background .3s;
+	-webkit-transition: background .3s;
+}
+
+.a:hover {
+	color: red;
+	font-weight: bold;
+	background: url(../images/bt_open.png) no-repeat left 0;
+}
+
+.tab ul.login li.right {
+	background: url("../images/tab_r.png") no-repeat left 0;
+	height: 42px;
+	width: 30px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+section {
+	text-align: center;
+	position: relative;
+	padding: 3%;
+}
+
+section input {
+	background-color: #C0D9D9;
+	border-radius: 10%;
+	width: 13%;
+}
