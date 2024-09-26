@@ -1,0 +1,178 @@
+
+body{
+	background-image: url("texture-8.jpg");
+}
+#wrapper{
+	 background:#eeeeee;
+	
+	 
+}
+#container{
+	background:white;
+	 height:720px;
+    width:1584px;
+}
+#header{
+	padding-top:10px;
+	margin:0 auto;
+    background-color:#abcdef;
+	  height:80px;
+    color:Black;
+    text-align:center;
+
+}
+.header-title{
+	 font-size:30px;
+	 font-weight:bold;
+}
+.header-slogan{
+	 font-size:20px;
+}
+.footer{
+	text-align:center;
+	margin:0 auto;
+	 color:Black;
+	 background-color:#faf0e6;
+	 height:40px;
+	
+}
+.footer a{
+	 text-decoration:none;
+}
+.subcontainer{
+width:1580;
+height:600px;
+}
+.navigation{
+	
+	 height:28px;
+	background:#9BB2B8;
+	font-size:24px;
+	font-weight:bold;
+}
+.navigation a{
+	text-align:left;
+	color:#000000;
+	font-size:20px;
+	text-decoration:none;
+}
+ .navigation a:hover {
+  text-align:left;
+	color:#000000;
+	font-size:20px;
+	text-decoration:none;
+	background:#99ccff;
+	border:1px solid #0099CC;
+}
+.menubar{
+	float:left;
+	height:140px;
+	width:300px;
+}
+.menubar a{
+	text-align:left;
+	color:#000000;
+	font-size:20px;
+	text-decoration:none;
+}
+.menubar a:hover{
+	text-align:left;
+	color:#000000;
+	font-size:20px;
+	text-decoration:none;
+	background:#99ccff;
+	border:1px solid #0099CC;
+}
+
+.menu{
+
+	padding:10px;
+	background:#E8E8E8 ;
+	
+}
+.vmenu{
+	
+	padding:10px;
+	background:#99ccff;
+	color:#000000;
+}
+.newmenu{
+	padding:10px;
+	background:#99ccff;
+	
+	color:#989898 ;
+}
+.newmenu2{
+	padding:10px;
+	
+	color:black;
+}
+.block{
+	
+	padding:10px;
+	background:#E8E8E8 ;
+}
+.blockName{
+	padding:10px;
+	background:#99ccff;
+	
+	color:black ;
+	font-weight:bold;
+}
+.navright{
+	
+	padding:20px;
+	float:right;
+	margin-top:0px;
+	position:relative;
+	height:520px;
+	width:320px;
+		background:#E8E8E8 ;
+	
+}
+.navright a:hover{
+	text-align:left;
+	color:black;
+	font-size:14px;
+	text-decoration:none;
+	width:320px;
+	padding:10px;
+}
+.search{
+
+	background:#99ccff;
+	padding:20px;
+	height:100px;
+}
+.category{
+	background:#99ccff;
+	padding:20px;
+	height:160px;
+}
+.Archives{
+	background:#99ccff;
+	padding:20px;
+	height:110px;
+}
+.navright a{
+	text-align:left;
+	color:black;
+	font-size:14px;
+	padding:10px;
+	width:320px;
+}
+
+.section{
+	margin-left:150px;
+	position:relative;
+	float:left;
+	padding:20px;
+	height:500px;
+	width:600px;
+}
+.section img{
+	position:relative;
+	height:200px;
+	width:600px;
+
+}

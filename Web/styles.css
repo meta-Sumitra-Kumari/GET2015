@@ -1,0 +1,45 @@
+#wrapper {
+    background:#eeeeee;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:25px;
+	 
+	
+}
+#nav{
+	background:white;
+	padding:10px;
+	 height:720px;
+    width:1540px;
+}
+
+
+#header {
+	margin:0 auto;
+    background-color:black;
+	  height:40px;
+    color:white;
+    text-align:left;
+    padding:25px;
+}
+#profile_pic {
+	
+    line-height:30px;
+    background-color:#eeeeee;
+    height:200px;
+    width:200px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+	background-color:white;
+   
+    float:left;
+    padding-left:70px;	 	 
+}
+#profile_pic img{
+	width:200px;
+	height:200px;
+}
+
